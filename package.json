@@ -1,0 +1,24 @@
+{
+  "name": "dsh-wiki",
+  "version": "0.1.0",
+  "description": "A source-traceable, bilingual documentation knowledge workbench and native DeepSeek Harness bundle.",
+  "type": "module",
+  "main": "./packages/dsh-plugin/index.mjs",
+  "bin": { "dsh-wiki": "./cli/wiki.mjs" },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "wiki": "node cli/wiki.mjs",
+    "export": "node cli/wiki.mjs export --format manifest",
+    "test:dsh": "node packages/dsh-plugin/test-runtime.mjs",
+    "test:dsh:host": "node packages/dsh-plugin/test-host.mjs",
+    "evaluate:search": "node scripts/evaluate-search.mjs"
+  },
+  "dsh": { "bundle": { "patch": "./packages/dsh-plugin/cordis.patch.yml" } },
+  "files": ["packages", "server", "cli", "web", "scripts", "tests", "data", "docs", "licenses", "README.md", "LICENSE"],
+  "license": "MIT",
+  "keywords": ["dsh-plugin", "deepseek-harness", "knowledge-base", "documentation", "context"]
+}

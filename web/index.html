@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9f4">
+  <meta name="description" content="DSH Wiki，本地 Markdown 知识工作台">
+  <title>DSH Wiki · 知识工作台</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">跳到主要内容</a>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar" aria-label="工作台导航">
+      <a href="#library" class="brand" aria-label="DSH Wiki 首页">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-name">DSH Wiki<span>知识工作台</span></span>
+      </a>
+      <nav class="navigation" aria-label="主导航">
+        <a href="#library" data-view-link="library"><span class="icon i-library" aria-hidden="true"></span>知识库</a>
+        <a href="#history" data-view-link="history"><span class="icon i-history" aria-hidden="true"></span>更新历史</a>
+        <a href="#sources" data-view-link="sources"><span class="icon i-sources" aria-hidden="true"></span>来源管理</a>
+      </nav>
+      <nav class="categories" id="categories" aria-label="按分类浏览"></nav>
+      <div class="sidebar-foot" id="sidebar-foot"></div>
+    </aside>
+    <div class="workbench">
+      <header class="toolbar">
+        <button class="icon-button nav-toggle" id="nav-toggle" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="打开导航"><span class="icon i-menu" aria-hidden="true"></span></button>
+        <form id="search-form" class="search-form" role="search">
+          <span class="icon i-search" aria-hidden="true"></span>
+          <label for="global-search" class="sr-only">搜索文档</label>
+          <input id="global-search" name="q" type="search" placeholder="搜索文档、标题或关键词…" autocomplete="off">
+          <kbd id="search-shortcut" aria-hidden="true">Ctrl K</kbd>
+        </form>
+        <div class="toolbar-actions">
+          <button class="button secondary toolbar-import" type="button" data-action="import" aria-label="导入 Markdown">
+            <span class="icon i-plus" aria-hidden="true"></span><span>导入 Markdown</span>
+          </button>
+          <button class="icon-button basket-toggle" id="basket-toggle" type="button" aria-label="打开上下文篮" data-action="basket">
+            <span class="icon i-basket" aria-hidden="true"></span><span class="basket-count" id="mobile-basket-count" hidden></span>
+          </button>
+        </div>
+      </header>
+      <div class="workspace-grid">
+        <main id="workspace" class="workspace" tabindex="-1" aria-busy="true"></main>
+        <aside id="utility" class="utility" aria-label="阅读与上下文工具"></aside>
+      </div>
+    </div>
+  </div>
+  <dialog id="dialog" class="dialog" aria-labelledby="dialog-title">
+    <div class="dialog-heading">
+      <h2 id="dialog-title"></h2>
+      <button class="icon-button" type="button" data-action="close-dialog" aria-label="关闭"><span class="icon i-close" aria-hidden="true"></span></button>
+    </div>
+    <div id="dialog-content" class="dialog-content"></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+  <noscript>请启用 JavaScript 使用 DSH Wiki。</noscript>
+</body>
+</html>

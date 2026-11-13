@@ -1,0 +1,200 @@
+{
+  "id": "dsh-official",
+  "name": "DeepSeek Harness · 官方文档",
+  "repository": "deepseek-ai/deepseek-harness",
+  "ref": "master",
+  "license": "MIT",
+  "paths": [
+    {
+      "path": "README.md",
+      "category": "入门指南",
+      "language": "en"
+    },
+    {
+      "path": "README.zh.md",
+      "category": "入门指南",
+      "language": "zh"
+    },
+    {
+      "path": "docs/architecture.md",
+      "category": "架构与核心",
+      "language": "en"
+    },
+    {
+      "path": "docs/architecture.zh.md",
+      "category": "架构与核心",
+      "language": "zh"
+    },
+    {
+      "path": "docs/agent-lifecycle.md",
+      "category": "架构与核心",
+      "language": "en"
+    },
+    {
+      "path": "docs/agent-lifecycle.zh.md",
+      "category": "架构与核心",
+      "language": "zh"
+    },
+    {
+      "path": "docs/cordis-primer.md",
+      "category": "插件开发",
+      "language": "en"
+    },
+    {
+      "path": "docs/cordis-primer.zh.md",
+      "category": "插件开发",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/develop/basic/index.md",
+      "category": "插件开发",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/develop/basic/index.zh.md",
+      "category": "插件开发",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/develop/basic/config.md",
+      "category": "插件开发",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/develop/basic/config.zh.md",
+      "category": "插件开发",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/develop/basic/tool.md",
+      "category": "工具与执行",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/develop/basic/tool.zh.md",
+      "category": "工具与执行",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/develop/basic/publish.md",
+      "category": "插件开发",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/develop/basic/publish.zh.md",
+      "category": "插件开发",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/guide/index.md",
+      "category": "入门指南",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/guide/index.zh.md",
+      "category": "入门指南",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/guide/mcp-memory.md",
+      "category": "集成与配置",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/guide/mcp-memory.zh.md",
+      "category": "集成与配置",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/guide/plugin-market.md",
+      "category": "集成与配置",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/guide/plugin-market.zh.md",
+      "category": "集成与配置",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/guide/providers.md",
+      "category": "集成与配置",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/guide/providers.zh.md",
+      "category": "集成与配置",
+      "language": "zh"
+    },
+    {
+      "path": "docs/user/guide/network-proxy.md",
+      "category": "集成与配置",
+      "language": "en"
+    },
+    {
+      "path": "docs/user/guide/network-proxy.zh.md",
+      "category": "集成与配置",
+      "language": "zh"
+    },
+    {
+      "path": "docs/cookbook/adding-a-tool.md",
+      "category": "工具与执行",
+      "language": "en"
+    },
+    {
+      "path": "docs/cookbook/adding-a-tool.zh.md",
+      "category": "工具与执行",
+      "language": "zh"
+    },
+    {
+      "path": "docs/cookbook/adding-a-package.md",
+      "category": "插件开发",
+      "language": "en"
+    },
+    {
+      "path": "docs/cookbook/adding-a-package.zh.md",
+      "category": "插件开发",
+      "language": "zh"
+    },
+    {
+      "path": "docs/cookbook/extension-cookbook.md",
+      "category": "插件开发",
+      "language": "en"
+    },
+    {
+      "path": "docs/cookbook/extension-cookbook.zh.md",
+      "category": "插件开发",
+      "language": "zh"
+    },
+    {
+      "path": "docs/cookbook/adding-an-llm-adapter.md",
+      "category": "集成与配置",
+      "language": "en"
+    },
+    {
+      "path": "docs/cookbook/adding-an-llm-adapter.zh.md",
+      "category": "集成与配置",
+      "language": "zh"
+    },
+    {
+      "path": "docs/subsystems/tools.md",
+      "category": "工具与执行",
+      "language": "en"
+    },
+    {
+      "path": "docs/subsystems/tools.zh.md",
+      "category": "工具与执行",
+      "language": "zh"
+    },
+    {
+      "path": "docs/glossary.md",
+      "category": "架构与核心",
+      "language": "en"
+    },
+    {
+      "path": "docs/glossary.zh.md",
+      "category": "架构与核心",
+      "language": "zh"
+    }
+  ]
+}
+
